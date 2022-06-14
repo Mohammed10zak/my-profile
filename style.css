@@ -68,3 +68,21 @@ h2 {
     font-size: 25px;
     color: #333;
 }
+.link {
+    display: flex;
+    background-color: rgb(125, 156, 163);
+    justify-content: space-around;
+}
+
+.link a {
+    color: rgb(28, 13, 13);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link a:hover {
+    color: rgba(0, 0, 0, 0.629);
+    transition: 0.2s;
+    background-color: #fff;
+}
